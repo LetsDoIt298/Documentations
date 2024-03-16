@@ -1,4 +1,4 @@
-To create a virtual env:-
+## To create a virtual env:-
 		python -m venv myenv
 Then enter into the ‘myenv’/Other name of envirment created And new environment python
  or enter below code:-
@@ -6,12 +6,12 @@ myenv\Scripts\Activate
 if getting error, enter this first:-
 		Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
-To Close virtual env:-
+## To Close virtual env:-
 		deactivate
 
 
 
-To push on github:-
+## To push on github:-
 1)	git init
 if getting err:- winget install --id Git.Git -e --source winget
 2)	git add .
@@ -22,13 +22,20 @@ if getting err:- winget install --id Git.Git -e --source winget
 If error:-  git remote set-url origin <link> e.g:- https://github.com/LetsDoIt298/Python.git)
 
 5)	git push origin master
-To push in existing branch:-
-		git checkout <BranchName> (e.g:- test_branch)
-			git push origin <BranchName> (e.g:- test_branch)
-To create a new branch :-
-			git checkout -b <BranchName> (e.g:- test_branch)
-git push origin <BranchName> (e.g:- test_branch)
 
+## To push in existing branch:-
+		git checkout <BranchName> (e.g:- test_branch)
+		git push origin <BranchName> (e.g:- test_branch)
+
+## To create a new branch :-
+		git checkout -b <BranchName> (e.g:- test_branch)
+		git push origin <BranchName> (e.g:- test_branch)
+
+## To Get the code from github to Local system:-
+1) To get the code/all data in the current folder:-
+			git clone -b <branck_name> <link> . (e.g:- git clone -b Version_1  https://github.com/LetsDoIt298/My-Site.git .)
+   To get all code in a folder:-
+			git clone -b <branch_name>  <link> <folder_name> (e.g:- git clone -b Version_1  https://github.com/LetsDoIt298/My-Site.git Test)
 
 
 
