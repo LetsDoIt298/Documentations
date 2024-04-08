@@ -23,6 +23,10 @@ If error:-  git remote set-url origin <link> e.g:- https://github.com/LetsDoIt29
 
 5)	git push origin master
 
+
+## Check the Origing url:-
+		git remote -v
+
 ## To check the branches:-
 		git branch -r
 
