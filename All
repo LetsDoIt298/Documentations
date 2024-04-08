@@ -23,6 +23,9 @@ If error:-  git remote set-url origin <link> e.g:- https://github.com/LetsDoIt29
 
 5)	git push origin master
 
+## To check the branches:-
+		git branch -r
+
 ## To push in existing branch:-
 		git checkout <BranchName> (e.g:- test_branch)
 		git push origin <BranchName> (e.g:- test_branch)
