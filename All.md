@@ -39,7 +39,7 @@ If error:-  git remote set-url origin <link> e.g:- https://github.com/LetsDoIt29
 		git push origin <BranchName> (e.g:- test_branch)
 
 ## To Get the code from github to Local system:-
-To get the code/all data in the current folder:-
+To get the code/all data in the current folder:- <br>
 		```ruby 
   		git clone -b <branck_name> <link> . (e.g:- git clone -b Version_1  https://github.com/LetsDoIt298/My-Site.git .)
     		```
