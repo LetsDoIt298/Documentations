@@ -42,8 +42,8 @@ If error:-  git remote set-url origin <link> e.g:- https://github.com/LetsDoIt29
 To get the code/all data in the current folder:- <br>
 		```ruby 
   		git clone -b <branck_name> <link> . (e.g:- git clone -b Version_1  https://github.com/LetsDoIt298/My-Site.git .)
-    		```
-To get all code in a folder:-
+    		```<br>
+To get all code in a folder:-<br>
 		git clone -b <branch_name>  <link> <folder_name> (e.g:- git clone -b Version_1  https://github.com/LetsDoIt298/My-Site.git Test)
 
 
