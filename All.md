@@ -39,9 +39,9 @@ If error:-  git remote set-url origin <link> e.g:- https://github.com/LetsDoIt29
 		git push origin <BranchName> (e.g:- test_branch)
 
 ## To Get the code from github to Local system:-
-1) To get the code/all data in the current folder:-
+To get the code/all data in the current folder:-
 			git clone -b <branck_name> <link> . (e.g:- git clone -b Version_1  https://github.com/LetsDoIt298/My-Site.git .)
-   To get all code in a folder:-
+To get all code in a folder:-
 			git clone -b <branch_name>  <link> <folder_name> (e.g:- git clone -b Version_1  https://github.com/LetsDoIt298/My-Site.git Test)
 
 
