@@ -2,14 +2,12 @@
 		python -m venv myenv
 Then enter into the ‘myenv’/Other name of envirment created And new environment python
  or enter below code:-
-myenv\Scripts\Activate
+		myenv\Scripts\Activate
 if getting error, enter this first:-
 		Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
 ## To Close virtual env:-
 		deactivate
-
-
 
 ## To push on github:-
 1)	git init
@@ -39,11 +37,9 @@ If error:-  git remote set-url origin <link> e.g:- https://github.com/LetsDoIt29
 		git push origin <BranchName> (e.g:- test_branch)
 
 ## To Get the code from github to Local system:-
-To get the code/all data in the current folder:- <br>
-		```ruby 
+To get the code/all data in the current folder:-
   		git clone -b <branck_name> <link> . (e.g:- git clone -b Version_1  https://github.com/LetsDoIt298/My-Site.git .)
-    		```<br>
-To get all code in a folder:-<br>
+To get all code in a folder:-
 		git clone -b <branch_name>  <link> <folder_name> (e.g:- git clone -b Version_1  https://github.com/LetsDoIt298/My-Site.git Test)
 
 
