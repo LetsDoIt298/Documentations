@@ -42,7 +42,15 @@ To get the code/all data in the current folder:-
 To get all code in a folder:-
 		git clone -b <branch_name>  <link> <folder_name> (e.g:- git clone -b Version_1  https://github.com/LetsDoIt298/My-Site.git Test)
 
-
+## In Terminal:-
+		* To move back folder:-
+					cd ..
+		* To move inside a folder:-
+					cd '<Folder Name>' (e.g:- 1)Text_Preprocessing)
+		* To list folders:-
+					ls
+		* To make folder:-
+					mkdir <Folder Name>
 
 
 For ATS
