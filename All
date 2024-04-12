@@ -48,16 +48,16 @@ if getting error, enter this first:-
 		git init
 		git add .
 		git commit -am "Done"
-		git push origin main
+		git push origin <BranchName> (e.g:- main)
 		If error:-
 			1) First check if main branch exit or not, using:-
 					git branch -r
 			   If not then create main branch:-
-					git checkout -b main
+					git checkout -b <BranchName> (e.g:- main)
 			2) It could be the case we have uploaded some data using UI of github
 			   now we are pushing code usingterminal, So for this first call data present in UI default franch:-
-					git pull origin main
-					git push origin main
+					git pull origin <BranchName> (e.g:- main)
+					git push origin  <BranchName> (e.g:-main)
 
 ## To Get the code from github to Local system:-
 		To get the code/all data in the current folder:-
