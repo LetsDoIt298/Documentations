@@ -1,10 +1,10 @@
 ## To create a virtual env:-
 		python -m venv myenv
-Then enter into the ‘myenv’/Other name of envirment created And new environment python
- or enter below code:-
-		myenv\Scripts\Activate
-if getting error, enter this first:-
-		Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+    Then enter into the ‘myenv’/Other name of envirment created And new environment python
+    or enter below code:-
+			myenv\Scripts\Activate
+	if getting error, enter this first:-
+			Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
 ## To Close virtual env:-
 		deactivate
