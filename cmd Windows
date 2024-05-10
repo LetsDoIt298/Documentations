@@ -1,0 +1,4 @@
+To delete undeleted folders:-
+                1) Open cmd as admin.
+                2) paste rd /s "\\?\<folder location> (e.d folder with name"d":- rd /s "\\?\D:\Mega\d" )
+                3) y then enter
