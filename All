@@ -19,6 +19,10 @@
 			If error:-  
 				git remote set-url origin <link> (e.g:- https://github.com/LetsDoIt298/Python.git))
 		5)	git push origin master
+			if getting error:-
+				git pull --rebase origin main
+				git push origin master
+
 
 
 ## Check the Origing url:-
@@ -30,7 +34,7 @@
 
 ##Change branch name(where git is pointing in terminal):-
 		git branch -m <old_branch_name> <new_branch_name> (e.g:- git branch -m master main)
-
+		
 ## To check the branches:-
 		git branch -r
 
