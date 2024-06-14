@@ -78,6 +78,10 @@
 					ls
 		* To make folder:-
 					mkdir <Folder Name>
+		* List all files:-
+					dir
+		* Remove a file:-
+					rmdir <File_Name>
 
 
 For ATS
