@@ -23,7 +23,15 @@
 				git pull --rebase origin main
 				git push origin master
 
-
+## To ignore sensitive filesto be added(like .evn file):-
+		Create a file named .ignore:-
+				echo "<File_NAME>" >> .gitignore (e.g:- echo ".env" >> .gitignore)
+		Remove the .env file from the repository while keeping it locally:-
+				git rm --cached .env
+		Commit the changes:-
+				git commit -m "Remove .env file from repository"
+		Push the changes to the remote repository:-
+				git push origin <your-branch>
 
 ## Check the Origing url:-
 		git remote -v
