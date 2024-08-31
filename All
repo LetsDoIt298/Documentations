@@ -6,6 +6,10 @@
 	if getting error, enter this first:-
 			Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
+## To create a virtual env Method 2nd:-
+		conda create -p venv python==3.11 -y
+		conda activate "Path_of_project"
+
 ## To Close virtual env:-
 		deactivate
 
