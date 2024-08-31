@@ -13,6 +13,11 @@
 ## To Close virtual env:-
 		deactivate
 
+## Open notebook of jupyter notebook
+		Opend cmd
+		Type this :-
+				jupyter notebook --notebook-dir=NameOfTheDrive
+
 ## To push on github:-
 		1)	git init
 			if getting err:- 
