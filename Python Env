@@ -7,4 +7,4 @@
               3) Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
               
    -> To Close virtual env:-
-              	4) deactivate
+              	4) deactivate 
