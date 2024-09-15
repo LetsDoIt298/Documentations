@@ -5,6 +5,6 @@
               2) myenv\Scripts\Activate
   -> If getting error, enter this first, before 2nd command:-
               3) Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
-            
+          
    -> To Close virtual env:-
               	4) deactivate  
