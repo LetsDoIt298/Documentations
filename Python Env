@@ -1,4 +1,4 @@
-# To create a virtual env:-
+# To create a virtual env:- 
               1) python -m venv myenv
   -> Then enter into the ‘myenv’/Other name of envirment created And new environment python
   or enter below code:- 
