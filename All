@@ -21,6 +21,8 @@
 
 ## Open VS using cmd:-
 	code .
+## Open commit:-
+	git commit -m "Some msg is mandatory"
 
 ## Point Anaconda prompt to other drive location:-
 			1) Opend Anaconda prompt
