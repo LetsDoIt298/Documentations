@@ -23,6 +23,10 @@
 	code .
 ## Open commit:-
 	git commit -m "Some msg is mandatory"
+## We do 'git push' after commit, if in case changes sare made in file(like read me file):-
+	git add .
+	git commit -m "Done"
+	git push
 
 ## Point Anaconda prompt to other drive location:-
 			1) Opend Anaconda prompt
