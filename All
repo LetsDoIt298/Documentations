@@ -18,6 +18,13 @@
 		Type this :-
 				jupyter notebook --notebook-dir=NameOfTheDrive
 
+## Point Anaconda prompt to other drive location:-
+			1) Opend Anaconda prompt
+			2) Opend the drive in which you wan to go:-
+							A:
+			3) Now enter the path of other drive:-
+							cd "A:\End-toEnd\"
+
 ## To push on github:-
 		1)	git init
 			if getting err:- 
