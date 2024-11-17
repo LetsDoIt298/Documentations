@@ -8,7 +8,8 @@
 
 ## To create a virtual env Method 2nd:-
 		conda create -p venv python==3.11 -y
-		conda activate "Path_of_project"
+		conda activate "Path_of_project" 
+					or conda activate venv/
 
 ## To Close virtual env:-
 		deactivate
@@ -17,6 +18,9 @@
 		Opend cmd
 		Type this :-
 				jupyter notebook --notebook-dir=NameOfTheDrive
+
+## Open VS using cmd:-
+	code .
 
 ## Point Anaconda prompt to other drive location:-
 			1) Opend Anaconda prompt
