@@ -10,6 +10,7 @@
 		conda create -p venv python==3.11 -y
 		conda activate "Path_of_project" 
 					or conda activate venv/
+					or conda activate complete_path\venv
 
 ## To Close virtual env:-
 		deactivate
