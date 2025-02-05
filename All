@@ -12,6 +12,13 @@
 					or conda activate venv/
 					or conda activate complete_path\venv
 
+## To install Jupyter notebook in virtual env:-
+		activate virtual env
+		make sure we are in command pormpt
+		Enter folllowing command in command prompt:-
+			pip install ipykernal
+			If above command doesn't work then use:-
+				python3 -m pip install jupyterlab
 ## To Close virtual env:-
 		deactivate
 
