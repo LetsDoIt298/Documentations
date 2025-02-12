@@ -19,6 +19,8 @@
 			pip install ipykernal
 			If above command doesn't work then use:-
 				python3 -m pip install jupyterlab
+			If still not works:-
+				conda install -c conda-forge octave_kernel
 ## To Close virtual env:-
 		deactivate
 
